@@ -246,7 +246,9 @@ footer{
 }
 footer div{
     flex: 1;
+     font-weight: bold;
 }
 footer .rigth{
     text-align: right;
+   
 }
