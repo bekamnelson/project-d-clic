@@ -125,6 +125,7 @@ nav .identiter{
     background-color: #f4f3f8;
     border-radius: 15px;
     font-weight: bold;
+    flex: 1;
     
 }
 /* section 4*/
