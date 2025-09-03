@@ -12,16 +12,16 @@
     <nav>
         <div class = "identiter">BEKAM <span class="coloration">NELSON MIGUEL</span></div>
         <div class="onclet">
-            <div>Accueil</div>
-            <div>A propos</div>
-            <div>Project</div>
-             <div>compétences</div>
-             <div>contact</div>
+            <div><a href="#Accueil"><span class="coloration">Accueil </span></a></div>
+            <div><a href="#Apropos">A propos</a></div>
+            <div><a href="#Project">Project</a></div>
+             <div><a href="#compétences">compétences</a></div>
+             <div><a href="#contact">contact</a></div>
         </div>
     </nav>
     <main>
  <!--section de presentation-->
-        <section class= "section1">
+        <section class= "section1" id="Accueil">
              <!--presentation-->
              <div class="presentation"><p>je suis <span class="coloration">NELSON </span>, 
                 développeur en devenir 
@@ -31,7 +31,7 @@
               <div><img src="images/image.jpg" alt="photo"></div>
         </section>
         <!--a propos-->
-        <section class= "section2">
+        <section class= "section2" id="Apropos">
             <div>
                  <h1> <span class="coloration">A propos</span></h1>
             </div>
@@ -47,28 +47,28 @@
             </div>
         </section>
                <!--mes projects-->
-        <section class="section3">
+        <section class="section3" id="Project">
             <div>
                 <h1><span class="coloration">Mes projects</span></h1>
             </div>
              <!--different project-->
              <div class="project">
                 <div>
-                    <p>un mini jeux en javascript qui utilise les element du DOM.</p><br><p>#html, #css, #javascript</p><br>
-                    <button>voir</button>
+                    <p>Un calculateur de prêt hypothécaire en javascript qui utilise les elements du DOM.</p><br><p>#html, #css, #javascript</p><br>
+                  <a href="./html/calculateur.html">  <button>voir</button></a>
                 </div>
                 <div>
-                    <p>un mini jeux en javascript qui utilise les element du DOM.</p><br><p>#html, #css, #javascript</p><br>
-                    <button>voir</button>
+                    <p>un mini jeux en javascript qui utilise les elements du DOM.</p><br><p>#html, #css, #javascript</p><br>
+                   <a href="./html/jeux.html">  <button>voir</button></a>
                 </div>
                 <div>
-                    <p>un mini jeux en javascript qui utilise les element du DOM.</p><br><p>#html, #css, #javascript</p><br>
+                    <p>une animation a l'aide de css et html portant sur un petit feu d'artifice.</p><br><p>#html, #css</p><br>
                     <button>voir</button>
                 </div>
              </div>
         </section>
          <!--mes competences-->
-         <section class="section4">
+         <section class="section4" id="compétences">
              <div>
                 <h1>Mes competences</h1>
             </div>
@@ -99,25 +99,25 @@
              
          </section>
   <!--formulaire-->
-         <section class="section5">
-            <form>
+         <section class="section5" id="contact">
+            <form method="post" id="form">
                 <h1>Vous avez un <span class="coloration">project en tête</span>??<br>
                      N'hésitez pas à me <span class="coloration">contacter</span></h1>
                 <div>
                     <div class="table">
                         <div class="table1">
                             <div>votre prénom</div>
-                            <div><input type="text" placeholder= "prénom"></div>
+                            <div><input type="text" placeholder= "prénom" name="prenom" id="prenom"></div>
                         </div>
                         <div class="table2">
                              <div>votre nom</div>
-                             <div><input type="text" placeholder= "nom"></div>
+                             <div><input type="text" placeholder= "nom" name="nom" id="nom"></div>
                         </div>
                     </div>
                     <div class="label">  <label for="sujet"> Votre sujet</label></div>
                  
-                    <input type="text" placeholder= "sujet"><br>
-                    <textarea placeholder="placez votre text"></textarea><br>
+                    <input type="text" placeholder= "sujet" name="sujet" id="sujet"><br>
+                    <textarea placeholder="placez votre text" id="text"></textarea><br>
                     <div><button>envoyer</button></div>
 
                 </div>
